@@ -1,0 +1,88 @@
+/* src/components/Home.css */
+
+.home {
+  font-family: Arial, sans-serif;
+}
+
+/* Хедер */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero-секція */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  max-width: 600px;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+
+/* Кнопки */
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.cta-buttons button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-buttons button:hover {
+  background-color: #555;
+}
+
+/* Додаткова секція */
+.additional-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.section-image {
+  width: 80%;
+  height: auto;
+}
